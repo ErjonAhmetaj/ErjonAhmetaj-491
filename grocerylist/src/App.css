@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  background-color: #0f1115;
+  color: #e9eef5;
+}
+
+/* centers the app */
+.page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* card container */
+.card {
+  width: 350px;
+  background: #151922;
+  border-radius: 14px;
+  padding: 20px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.35);
+}
+
+/* title */
+.title {
+  margin-bottom: 12px;
+  font-size: 20px;
+}
+
+/* input row */
+.inputRow {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+/* input */
+.input {
+  flex: 1;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #2a2f3a;
+  background: #0f131b;
+  color: white;
+}
+
+/* button */
+.btn {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: none;
+  background: #3b82f6;
+  color: white;
+  cursor: pointer;
+}
+
+/* list */
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.listItem {
+  background: #1c212c;
+  padding: 8px;
+  border-radius: 6px;
+  margin-bottom: 6px;
+}
